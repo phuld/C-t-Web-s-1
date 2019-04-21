@@ -1,0 +1,330 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+@font-face {
+    src: url("../font/LucidaSansRegular.ttf");
+    font-family: lucida_sans;
+}
+
+html, body {
+    font-family: lucida_sans!important;
+}
+
+/* Menutop */
+.menutop {
+    background: url(../images/bg_header.png) repeat-x;
+    height: 100px;
+}
+
+.menutop .container {
+    max-width: 962px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.menu ul li {
+    margin-right: 35px;
+}
+
+.menu ul li:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.menu ul li a {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/* Slider */
+
+.slider {
+    padding-top: 15px;
+    background: #e6e6e6;
+    padding-bottom: 45px;
+}
+
+.slider .container .row .col-sm-3 {
+    /* padding-left: 0; */
+    background: white;
+    max-width: 230px;
+    height: 430px;
+    padding: 0;
+    margin-right: 14px;
+    border-bottom: 5px solid #c6c6c6;
+}
+
+.slider .container .row .col-sm-3 img {
+    width: 100%;
+}
+
+.slider .container .row .col-sm-3:nth-child(1) {
+    margin-left: 0;
+}
+
+.slider .container .row .col-sm-3:nth-child(4) {
+    margin: 0;
+}
+
+.slider .carousel-inner .carousel-item .container {
+    max-width: 962px;
+}
+
+.nuttrai, .nutphai {
+    height: 368px;
+}
+
+.nuttrai .carousel-control-prev-icon {
+    background: none;
+    background: url(../images/left_button.png);
+    width: 36px;
+    height: 45px;
+    transform: translate3d(200%,0,0);
+}
+
+.nutphai .carousel-control-next-icon {
+    background: none;
+    background: url(../images/right_button.png);
+    width: 36px;
+    height: 45px;
+    transform: translate3d(-200%,0,0);
+}
+
+.content_slide {
+    
+padding: 12px 17px;
+}
+
+.content_slide h3 {
+    font-size: 15px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.content_slide p {
+    font-size: 12px;
+    color: #50504f;
+}
+
+/* Service */
+.service {
+
+height: 335px;
+
+width: 100%;
+
+background: #6b6b6b;
+}
+
+.service .title {
+    
+width: 360px;
+    
+background: black;
+    
+border-radius: 5px;
+    
+text-align: center;
+    
+margin-left: 50%;
+    
+transform: translate3d(-50%,-50%,0);
+}
+
+.service .title h3 {
+    font-size: 15px!important;
+    color: #fff600;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 18px;
+    font-family: lucida_sans;
+}
+
+.service .content {
+    
+max-width: 962px;
+}
+
+.service .content .tieude {
+    
+font-size: 15px;
+    
+color: #fff600;
+}
+
+.service .content .tieude .icon img {
+    width: 30px;
+    height: 30px;
+    background: #fff600;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.service .content p {
+    
+font-size: 12px;
+    
+color: #e6e6e6;
+    
+line-height: 24px;
+    
+margin-top: 20px;
+}
+
+/* Blog */
+.blog {
+
+height: 533px;
+
+padding: 50px;
+
+background-color: #f1f1f1;
+}
+
+.blog {}
+
+.blog .container {
+
+max-width: 962px;
+}
+
+.blog .container .title {
+    
+font-size: 18px;
+    
+font-weight: 100;
+    
+color: black;
+}
+
+.blog .container .content{
+    
+font-size: 12px;
+    
+color: #50504f;
+    
+line-height: 24px;
+    
+margin-top: 35px;
+}
+
+.blog .container .content p{
+    
+margin-top: 35px;
+    
+margin-bottom: 0;
+}
+
+.blog .container .content .author{
+    
+}
+
+.blog .container ul {
+    
+margin-top: 35px;
+}
+
+.blog .container ul li {
+    
+list-style: none;
+    
+border-bottom: 1px solid #cacaca;
+    
+border-top: 1px solid white;
+    
+line-height: 24px;
+    
+padding-top: 19px;
+    
+padding-bottom: 12px;
+}
+
+.blog .container ul li:nth-child(1) {
+    border-top: none;
+}
+
+.blog .container ul li:last-child {
+    border-bottom: none;
+}
+
+.blog .container ul li .name{
+    
+font-size: 12px;
+    
+color: #b72706;
+    
+font-weight: 500;
+}
+
+.blog .container ul li .address{
+    
+font-size: 12px;
+}
+
+/* Yellow */
+.yellow {
+
+height: 55px;
+
+width: 100%;
+
+border-top: 1px solid black;
+
+background: #fff600;
+}
+
+/* Footer */
+.footer {
+
+height: 300px;
+
+background: #3c3c3c;
+}
+
+.footer .container {
+
+max-width: 962px;
+}
+
+.footer .title {
+
+margin-top: 50px;
+
+font-size: 15px;
+
+color: white;
+}
+
+.footer ul {
+
+line-height: 24px;
+}
+
+.footer ul li {
+
+list-style: none;
+
+font-size: 13px;
+
+color: #c0c0c0;
+}
+
+.footer p {
+
+font-size: 13px;
+
+color: #c0c0c0;
+
+line-height: 24px;
+
+margin-bottom: 5px;
+}
+
+.footer .copyright {
+    
+font-size: 12px;
+    
+color: #747474;
+}
+
